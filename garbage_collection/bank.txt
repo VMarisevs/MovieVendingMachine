@@ -1,0 +1,35 @@
+      public class BankStandard{
+        public int cashInBank10c =0,
+                     cashInBank20c = 0,
+                       cashInBank50c = 0,
+                          cashInBank1e = 0,
+                            cashInBank2e = 0,
+                              cashInBank5e = 0,
+                                cashInBank10e =0,
+                                  cashInBank20e =0;
+        
+
+          public double getBank(){
+               double  bank = (cashInBank10c * 0.10) +
+                                (cashInBank20c * 0.20) +
+                                    (cashInBank50c * 0.50) +
+                                        (cashInBank1e * 1.00) +
+                                            (cashInBank2e * 2.00) +
+                                                (cashInBank5e * 5.00) +
+                                                    (cashInBank10e * 10.00) +
+                                                        (cashInBank20e * 20.00);
+               return bank;
+          }
+
+          public void setBank(int inBank10c,int inBank20c,int inBank50c,int inBank1e,int inBank2e,int inBank5e,int inBank10e,int inBank20e){
+                  
+                   cashInBank10c = inBank10c;
+                     cashInBank20c = inBank20c;
+                       cashInBank50c = inBank50c;
+                          cashInBank1e = inBank1e;
+                            cashInBank2e = inBank2e;
+                              cashInBank5e = inBank5e;
+                                cashInBank10e = inBank10e;
+                                  cashInBank20e = inBank20e;
+          }
+      }

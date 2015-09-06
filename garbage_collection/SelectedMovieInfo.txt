@@ -1,0 +1,117 @@
+      public void setMovieInfo(int identificator){
+
+      switch(identificator){
+          case 1:
+
+                    jTextMName.setText(movie1.getName());
+                    jTextMInfo.setText(movie1.getInfoText());
+                    jTextMCast.setText(movie1.getCast());
+                    jTextMDirected.setText(movie1.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie1.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie1.getPriceAdult();
+                    priceChild = movie1.getPriceChild();
+                    priceStudent = movie1.getPriceStudent();
+                    selectedMovieID = identificator;
+
+
+                    break;
+          case 2:
+                    jTextMName.setText(movie2.getName());
+                    jTextMInfo.setText(movie2.getInfoText());
+                    jTextMCast.setText(movie2.getCast());
+                    jTextMDirected.setText(movie2.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie2.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie2.getPriceAdult();
+                    priceChild = movie2.getPriceChild();
+                    priceStudent = movie2.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 3:
+                    jTextMName.setText(movie3.getName());
+                    jTextMInfo.setText(movie3.getInfoText());
+                    jTextMCast.setText(movie3.getCast());
+                    jTextMDirected.setText(movie3.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie3.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie3.getPriceAdult();
+                    priceChild = movie3.getPriceChild();
+                    priceStudent = movie3.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 4:
+                    jTextMName.setText(movie4.getName());
+                    jTextMInfo.setText(movie4.getInfoText());
+                    jTextMCast.setText(movie4.getCast());
+                    jTextMDirected.setText(movie4.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie4.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie4.getPriceAdult();
+                    priceChild = movie4.getPriceChild();
+                    priceStudent = movie4.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 5:
+                    jTextMName.setText(movie5.getName());
+                    jTextMInfo.setText(movie5.getInfoText());
+                    jTextMCast.setText(movie5.getCast());
+                    jTextMDirected.setText(movie5.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie5.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie5.getPriceAdult();
+                    priceChild = movie5.getPriceChild();
+                    priceStudent = movie5.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 6:
+                    jTextMName.setText(movie6.getName());
+                    jTextMInfo.setText(movie6.getInfoText());
+                    jTextMCast.setText(movie6.getCast());
+                    jTextMDirected.setText(movie6.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie6.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie6.getPriceAdult();
+                    priceChild = movie6.getPriceChild();
+                    priceStudent = movie6.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 7:
+                    jTextMName.setText(movie7.getName());
+                    jTextMInfo.setText(movie7.getInfoText());
+                    jTextMCast.setText(movie7.getCast());
+                    jTextMDirected.setText(movie7.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie7.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie7.getPriceAdult();
+                    priceChild = movie7.getPriceChild();
+                    priceStudent = movie7.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 8:
+                    jTextMName.setText(movie8.getName());
+                    jTextMInfo.setText(movie8.getInfoText());
+                    jTextMCast.setText(movie8.getCast());
+                    jTextMDirected.setText(movie8.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie8.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie8.getPriceAdult();
+                    priceChild = movie8.getPriceChild();
+                    priceStudent = movie8.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+          case 9:
+                    jTextMName.setText(movie9.getName());
+                    jTextMInfo.setText(movie9.getInfoText());
+                    jTextMCast.setText(movie9.getCast());
+                    jTextMDirected.setText(movie9.getDirected());
+                    imageVar = new ImageIcon(UsersForm.class.getResource(movie9.getTeaserImg()));
+                    jLabelTeaserImg.setIcon(imageVar);
+                    priceAdult = movie9.getPriceAdult();
+                    priceChild = movie9.getPriceChild();
+                    priceStudent = movie9.getPriceStudent();
+                    selectedMovieID = identificator;
+                    break;
+
+      }
+      }
